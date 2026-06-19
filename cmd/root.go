@@ -12,8 +12,10 @@ import (
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "todo-cli",
-	Short: "todo-cli is a todo application",
-	Long:  `todo-cli will help you do your tasks properply and organised. It's designed to be as simple as possible to help you accomplish your goals.`,
+	Short: "A minimalist CLI task manager to keep you productive and organized",
+	Long: `todo-cli is a fast and simple command-line interface for managing your tasks.
+Designed to keep you focused and organized, it helps you accomplish your goals
+directly from your terminal.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
