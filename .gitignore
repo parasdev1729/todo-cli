@@ -1,0 +1,19 @@
+# Go binaries
+todo-cli
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Coverage
+*.out
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
